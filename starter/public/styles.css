@@ -1,0 +1,57 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.page-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section.details {
+    text-align: right;
+    padding: 0 10px 10px;
+    float: right;
+}
+
+.car, .employee, .customer {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    vertical-align: top;
+}
+
+.plate, .employee-id, .customer-id {
+    color: #777;
+    text-transform: uppercase;
+    font-size: x-small;
+}
+
+.make {
+    font-weight: bold;
+}
+
+.model {
+    font-size: large;
+}
+
+.color {
+    font-size: small;
+}
+
+.price {
+    color: green;
+    text-align: right;
+}
+
+.cost {
+    color: maroon;
+    text-align: right;
+}
